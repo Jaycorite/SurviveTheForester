@@ -1,123 +1,123 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'da' Physical Memory: 24506 MB
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 7599 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-H:\2020.3.30f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/GameDev/SurviveTheForester/SurviveTheForester/SurviveTheForester
+C:/Users/Jonatan/Documents/GameDevZealand/SurviveTheForester/SurviveTheForester
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57991
-Successfully changed project path to: C:/GameDev/SurviveTheForester/SurviveTheForester/SurviveTheForester
-C:/GameDev/SurviveTheForester/SurviveTheForester/SurviveTheForester
+63448
+Successfully changed project path to: C:/Users/Jonatan/Documents/GameDevZealand/SurviveTheForester/SurviveTheForester
+C:/Users/Jonatan/Documents/GameDevZealand/SurviveTheForester/SurviveTheForester
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 33.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 52.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
-[Subsystems] Discovering subsystems at path H:/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/GameDev/SurviveTheForester/SurviveTheForester/SurviveTheForester/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Jonatan/Documents/GameDevZealand/SurviveTheForester/SurviveTheForester/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon RX 5700 XT (ID=0x731f)
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
     Vendor:   
-    VRAM:     8151 MB
-    Driver:   30.0.14023.3004
+    VRAM:     3799 MB
+    Driver:   26.20.14044.3001
 Initialize mono
-Mono path[0] = 'H:/2020.3.30f1/Editor/Data/Managed'
-Mono path[1] = 'H:/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'H:/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: H:/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000819 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001334 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 33.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 52.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.423 seconds
+- Completed reload, in  0.575 seconds
 Domain Reload Profiling:
-	ReloadAssembly (423ms)
-		BeginReloadAssembly (43ms)
+	ReloadAssembly (576ms)
+		BeginReloadAssembly (62ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (332ms)
-			LoadAssemblies (42ms)
+		EndReloadAssembly (443ms)
+			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (110ms)
+			SetupTypeCache (139ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (127ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (180ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (33ms)
-				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (59ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002647 seconds.
+Registered in 0.003477 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 54.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 49.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.860 seconds
+- Completed reload, in  1.043 seconds
 Domain Reload Profiling:
-	ReloadAssembly (860ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (1044ms)
+		BeginReloadAssembly (141ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (710ms)
-			LoadAssemblies (71ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (844ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (218ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (294ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (337ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (55ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (153ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2196 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.1 MB.
-System memory in use after: 96.0 MB.
+Unloading 2204 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.1 MB.
+System memory in use after: 97.1 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2626.
-Total: 2.480900 ms (FindLiveObjects: 0.162200 ms CreateObjectMapping: 0.098300 ms MarkObjects: 2.110600 ms  DeleteObjects: 0.109000 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2634.
+Total: 4.360000 ms (FindLiveObjects: 0.288900 ms CreateObjectMapping: 0.117200 ms MarkObjects: 3.788300 ms  DeleteObjects: 0.163800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,63 +131,217 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffae677c86e903bacef8065336249a81') in 0.007368 seconds 
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_06.prefab
+  artifactKey: Guid(e333f712e0f4cd54694dff55e08610dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_06.prefab using Guid(e333f712e0f4cd54694dff55e08610dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b05aa86375447f1add7387562004a1') in 0.136463 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002940 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.725 seconds
-Domain Reload Profiling:
-	ReloadAssembly (726ms)
-		BeginReloadAssembly (88ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (596ms)
-			LoadAssemblies (71ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (212ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (214ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (140ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.2 MB.
-System memory in use after: 96.2 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2636.
-Total: 2.192300 ms (FindLiveObjects: 0.141000 ms CreateObjectMapping: 0.073500 ms MarkObjects: 1.885600 ms  DeleteObjects: 0.091200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_07.prefab
+  artifactKey: Guid(0b50b221a0513d8478712a57f0ae2432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_07.prefab using Guid(0b50b221a0513d8478712a57f0ae2432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed414c1abbf289b4cfd8bcc301934972') in 0.022635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_04.prefab
+  artifactKey: Guid(e9aca9fd5af816747b70d3de5e00a397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_04.prefab using Guid(e9aca9fd5af816747b70d3de5e00a397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82513b7ace1ed897274bf3328b1c679') in 0.017884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_11.prefab
+  artifactKey: Guid(efa51e2c87944684bb2a00c2fb21142d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_11.prefab using Guid(efa51e2c87944684bb2a00c2fb21142d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b0815189b586a7ba5f72f593ac897f') in 0.019195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_12.prefab
+  artifactKey: Guid(2959c4ab942d0fc48be373a20d14f013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_12.prefab using Guid(2959c4ab942d0fc48be373a20d14f013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f140111740a3c583efbae67de5c7c574') in 0.020572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_14.prefab
+  artifactKey: Guid(513a08669601e7e4a8e38fcaf714c18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_14.prefab using Guid(513a08669601e7e4a8e38fcaf714c18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0000fb5f8dc99c5bbda3de2bb558975') in 0.024148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_05.prefab
+  artifactKey: Guid(40f14f46c517bfd4f9bf2e1d81247bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_05.prefab using Guid(40f14f46c517bfd4f9bf2e1d81247bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04246691d90148ebe6b71352de62cb2c') in 0.020078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_00.prefab
+  artifactKey: Guid(2ab8321fe1cca3049b56c26509622067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_00.prefab using Guid(2ab8321fe1cca3049b56c26509622067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ef1d0fd2e66801e76bd33b71ec5b76') in 0.019554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_15.prefab
+  artifactKey: Guid(37ee29af06da16e49b0a52386580d035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_15.prefab using Guid(37ee29af06da16e49b0a52386580d035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638cb6c32131aa86d585946c82122249') in 0.020496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_08.prefab
+  artifactKey: Guid(3658b709125fc2041a7e1693380ef76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_08.prefab using Guid(3658b709125fc2041a7e1693380ef76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73d116cfdea3793677e03f3bd0be652') in 0.018688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_13.prefab
+  artifactKey: Guid(1592a01ba2b92644bbefab27fc295fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_13.prefab using Guid(1592a01ba2b92644bbefab27fc295fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2d232683bdcd9a5c92f111b3ff0ebf') in 0.024513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_09.prefab
+  artifactKey: Guid(fabe0c86f03e51842b4b9eb28255180d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_09.prefab using Guid(fabe0c86f03e51842b4b9eb28255180d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583333246364860cba9416a4c6b78173') in 0.025389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_03.prefab
+  artifactKey: Guid(ba91827772c36b440ab61f47c756e0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_03.prefab using Guid(ba91827772c36b440ab61f47c756e0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f95ecb989bc06a3cfd7c122baf0654b') in 0.019356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_10.prefab
+  artifactKey: Guid(e5cb27b0420804e41a0f1be6d053e93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_10.prefab using Guid(e5cb27b0420804e41a0f1be6d053e93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eccf3b1e7b5f33cb64659cbf7d21e975') in 0.018692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_02.prefab
+  artifactKey: Guid(f31fb566307b463498f311cee18dac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_02.prefab using Guid(f31fb566307b463498f311cee18dac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9cb945ea9da9fb1f80656e01d7180e') in 0.017094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_01.prefab
+  artifactKey: Guid(a8a128c7bf0083645ae7193d0cb46d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_01.prefab using Guid(a8a128c7bf0083645ae7193d0cb46d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3203821a83dea1979af4ba881764788') in 0.027484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.874748 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Textures/Forest_Background.jpg
+  artifactKey: Guid(23c688f522319384eb94528564735374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Textures/Forest_Background.jpg using Guid(23c688f522319384eb94528564735374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8b523445984070ea8b3a5e8b510895') in 0.185071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Textures/PackForest01.png
+  artifactKey: Guid(b08e570699f1c8a4f9cc388204aef3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Textures/PackForest01.png using Guid(b08e570699f1c8a4f9cc388204aef3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727435c7c445011647205d80ff119a22') in 0.322795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.472305 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_00.prefab
+  artifactKey: Guid(53a99e5977d74a54b8ec7152551f92af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_00.prefab using Guid(53a99e5977d74a54b8ec7152551f92af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1216bbcc6f90e431ccd2d1300b1e371e') in 0.017241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_03.prefab
+  artifactKey: Guid(c4b77ed62153f4b4a8e52a981d88913e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_03.prefab using Guid(c4b77ed62153f4b4a8e52a981d88913e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da77f0c0716f1a4c8ea85a7bd1a08e6') in 0.030394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_13.prefab
+  artifactKey: Guid(b6db6d6259535b249878f2637522e7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_13.prefab using Guid(b6db6d6259535b249878f2637522e7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d285aef8e512799d51c3de5a6574a98') in 0.019749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_01.prefab
+  artifactKey: Guid(0c700c05063d08841a543e8006af7d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_01.prefab using Guid(0c700c05063d08841a543e8006af7d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b7a4c2bc91292885f7338cb745e3a1') in 0.021844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_10.prefab
+  artifactKey: Guid(8bb46685209fef6499b17da41e4a1025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_10.prefab using Guid(8bb46685209fef6499b17da41e4a1025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96ca0d95d659c194e2f7831e4a39ee6') in 0.019886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_11.prefab
+  artifactKey: Guid(d9647bf3567c4e64b9f12ab297acbc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_11.prefab using Guid(d9647bf3567c4e64b9f12ab297acbc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4056313d27c97bcf85e06f4f3febae') in 0.021139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_04.prefab
+  artifactKey: Guid(da47f9b5ff160434483d6e33e9c06aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_04.prefab using Guid(da47f9b5ff160434483d6e33e9c06aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefd6839d4c6f9c663f2878fd7f131c6') in 0.019454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_09.prefab
+  artifactKey: Guid(3415faee9fdf1c446bcf1ef4d62405c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_09.prefab using Guid(3415faee9fdf1c446bcf1ef4d62405c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225e9444981a2584bcc8b5488869d0d6') in 0.020800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_05.prefab
+  artifactKey: Guid(fbe3882f5a80eec4e94d8e2f0d4e9bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_05.prefab using Guid(fbe3882f5a80eec4e94d8e2f0d4e9bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9899aa9fa3d6efd0df04136d16838fb5') in 0.020031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_07.prefab
+  artifactKey: Guid(2c1329a7c9cbc294098ecdd208a800a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_07.prefab using Guid(2c1329a7c9cbc294098ecdd208a800a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44bd52e82f19c1f05a1d53eb1acd374') in 0.020888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_06.prefab
+  artifactKey: Guid(abc4602540b9c5245b0c4cf5bfbfa86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_06.prefab using Guid(abc4602540b9c5245b0c4cf5bfbfa86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51255cf1e0c213141f3749bbc13a4894') in 0.022882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_08.prefab
+  artifactKey: Guid(9770b590bf458494da2ac5a3697c387a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_08.prefab using Guid(9770b590bf458494da2ac5a3697c387a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b38e7ddaf3f43bcc9d6d60d8da56d33') in 0.020476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_15.prefab
+  artifactKey: Guid(fef1cf2afab8c8e48b0819ae608ecdcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_15.prefab using Guid(fef1cf2afab8c8e48b0819ae608ecdcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d664c7576a644df5b76aaef3b9e9d3') in 0.021437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_02.prefab
+  artifactKey: Guid(8cba555f00519c445a67f37df6a732cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_02.prefab using Guid(8cba555f00519c445a67f37df6a732cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843cd3b591bfda8fa0b45711396b59dd') in 0.017501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_14.prefab
+  artifactKey: Guid(31fd5c215f0e7274c86269e8c095ffc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_14.prefab using Guid(31fd5c215f0e7274c86269e8c095ffc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99afae408fa5e19f0b0eff5fc5fadcb1') in 0.020009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_12.prefab
+  artifactKey: Guid(ae7d8b00e1852d94e8652d405171699b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/References/CharaRef_12.prefab using Guid(ae7d8b00e1852d94e8652d405171699b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6562e76ec8bb7ff0256d39ac275bf39') in 0.019748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 146.240598 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_03.prefab
+  artifactKey: Guid(ba91827772c36b440ab61f47c756e0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_03.prefab using Guid(ba91827772c36b440ab61f47c756e0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7337b67c4f2fb416114e7db4ac85f5') in 0.024171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.718825 seconds.
+  path: Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_03.prefab
+  artifactKey: Guid(ba91827772c36b440ab61f47c756e0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tasty_Characters - Forest Pack/Assets/Prefabs/Chara_03.prefab using Guid(ba91827772c36b440ab61f47c756e0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea9b7ddf4d95d1710aed38f671adb87') in 0.023394 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
