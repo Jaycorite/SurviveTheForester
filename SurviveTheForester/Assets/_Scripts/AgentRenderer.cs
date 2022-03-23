@@ -20,10 +20,10 @@ public class AgentRenderer : MonoBehaviour
         var result = Vector3.Cross(Vector2.up, direction);
         if(result.z > 0)
         {
-            spriteRenderer.flipX = true;
+            spriteRenderer.flipX = false;
         }else if(result.z < 0)
         {
-            spriteRenderer.flipX = false;
+            spriteRenderer.flipX = true;
         }
 
     }

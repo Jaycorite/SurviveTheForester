@@ -21,6 +21,7 @@ public class EnemyAIBrain : MonoBehaviour, IAgentInput
     private void Awake()
     {
         Target = FindObjectOfType<Player>().gameObject;
+        //Taget = FindObjectOfType<
     }
 
     private void Update()
