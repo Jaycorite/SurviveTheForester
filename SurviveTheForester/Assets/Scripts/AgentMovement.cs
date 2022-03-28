@@ -27,8 +27,7 @@ public class AgentMovement : MonoBehaviour
                 currentVelocity = 0;
             movementDirection = movementInput.normalized;
         }
-        currentVelocity = CalculateSpeed(movementInput);
-         //rigidbody2D.velocity = movementInput.normalized * currentVelocity;     
+        currentVelocity = CalculateSpeed(movementInput);  
     }
 
     private float CalculateSpeed(Vector2 movementInput)
