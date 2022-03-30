@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 2193918996398513289}
   - component: {fileID: 129553064724334712}
   - component: {fileID: -815644167791712885}
+  - component: {fileID: 3265821155902429140}
+  - component: {fileID: -2716915319742220954}
   m_Layer: 0
   m_Name: Bush 3 Green
   m_TagString: Untagged
@@ -42,8 +44,8 @@ SortingGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 110373321680545795}
   m_Enabled: 1
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 773897203
+  m_SortingLayer: 4
   m_SortingOrder: 0
 --- !u!95 &129553064724334712
 Animator:
@@ -85,6 +87,37 @@ MonoBehaviour:
   _lightAffectedRenderers:
   - {fileID: 4872637867093121307}
   - {fileID: 7196929305549162}
+--- !u!70 &3265821155902429140
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110373321680545795}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.015643358, y: 0.22421944}
+  m_Size: {x: 0.6981478, y: 0.6981478}
+  m_Direction: 0
+--- !u!114 &-2716915319742220954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110373321680545795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cf4298a95d598244ae2507ac5c9d797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPool: {fileID: 0}
+  health: 10
+  animator: {fileID: 0}
 --- !u!1 &1011797047831538222
 GameObject:
   m_ObjectHideFlags: 0

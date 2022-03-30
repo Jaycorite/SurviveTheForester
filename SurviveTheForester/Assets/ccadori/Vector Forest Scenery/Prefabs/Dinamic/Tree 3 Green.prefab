@@ -96,6 +96,8 @@ GameObject:
   - component: {fileID: 586356412467801442}
   - component: {fileID: 4114034474201555656}
   - component: {fileID: 3225865351061297009}
+  - component: {fileID: 5969954196110590864}
+  - component: {fileID: -2614424631574817781}
   m_Layer: 0
   m_Name: Tree 3 Green
   m_TagString: Untagged
@@ -126,8 +128,8 @@ SortingGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718521604881258984}
   m_Enabled: 1
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 773897203
+  m_SortingLayer: 4
   m_SortingOrder: 0
 --- !u!95 &4114034474201555656
 Animator:
@@ -176,6 +178,37 @@ MonoBehaviour:
   - {fileID: 6464003237082425795}
   - {fileID: 7434494653241166673}
   - {fileID: 1876543782809622558}
+--- !u!70 &5969954196110590864
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718521604881258984}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.008254528, y: 0.20360184}
+  m_Size: {x: 0.4394703, y: 0.5927963}
+  m_Direction: 0
+--- !u!114 &-2614424631574817781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718521604881258984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cf4298a95d598244ae2507ac5c9d797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPool: {fileID: 0}
+  health: 10
+  animator: {fileID: 0}
 --- !u!1 &1755231453264960453
 GameObject:
   m_ObjectHideFlags: 0

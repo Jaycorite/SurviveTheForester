@@ -19,6 +19,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree 2 Yellow
       objectReference: {fileID: 0}
+    - target: {fileID: 1259547084501791951, guid: 699e3ba9c64017c4f931f67143057df3, type: 3}
+      propertyPath: m_SortingLayer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1259547084501791951, guid: 699e3ba9c64017c4f931f67143057df3, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 773897203
+      objectReference: {fileID: 0}
     - target: {fileID: 1450766604019142254, guid: 699e3ba9c64017c4f931f67143057df3, type: 3}
       propertyPath: m_RootOrder
       value: 0

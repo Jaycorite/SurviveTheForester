@@ -51,13 +51,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 478701144545397010, guid: 411fd9c3f5ca15b49a058ff75af5542d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 478701144545397010, guid: 411fd9c3f5ca15b49a058ff75af5542d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 773897203
+      objectReference: {fileID: 0}
     - target: {fileID: 1787783926108392689, guid: 411fd9c3f5ca15b49a058ff75af5542d, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 5fca232fa60edb3489f17c7db176313c, type: 3}
     - target: {fileID: 1828164993209728408, guid: 411fd9c3f5ca15b49a058ff75af5542d, type: 3}
       propertyPath: m_Name
-      value: Stone 1 Yellow
+      value: Stone 1 Yellow Variant
       objectReference: {fileID: 0}
     - target: {fileID: 6578065539100363904, guid: 411fd9c3f5ca15b49a058ff75af5542d, type: 3}
       propertyPath: m_Sprite
