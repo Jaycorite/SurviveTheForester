@@ -12,6 +12,7 @@ TagManager:
   - Material
   - Book
   - Item
+  - FogedBox
   layers:
   - Default
   - TransparentFX

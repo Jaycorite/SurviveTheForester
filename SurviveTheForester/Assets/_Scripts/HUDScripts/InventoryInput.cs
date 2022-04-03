@@ -57,13 +57,13 @@ public class InventoryInput : MonoBehaviour
             {
                 if (selected.tag == "Book" && selected.transform.parent == inventorySlot.transform)
                 {
-                    if (crafting.gameObject.active == false)
+                    if (crafting.gameObject.activeSelf == false)
                     {
-                        crafting.gameObject.active = true;
+                        crafting.gameObject.SetActive(true);    
                     }
                     else
                     {
-                        crafting.gameObject.active = false;
+                        crafting.gameObject.SetActive(false);
                     }
                     selected.transform.position = inventorySlot.transform.position;
                     selected.transform.parent = inventorySlot.transform;

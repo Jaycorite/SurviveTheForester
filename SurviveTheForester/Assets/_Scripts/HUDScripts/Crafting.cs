@@ -31,6 +31,8 @@ public class Crafting : MonoBehaviour
         inventory = sibling.GetComponent<InventoryUI>();
         Debug.Log(inventory.name);
 
+        Debug.Log(recipeBook.Recipes.Count);
+        Debug.Log(recipeBook.Recipes[pageIndex - 1]);
         text2.text = MakeRecipeText(recipeBook.Recipes[pageIndex-1]);
 
         //hmm();

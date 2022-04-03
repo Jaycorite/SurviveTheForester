@@ -8,7 +8,6 @@ public class TreeController : MonoBehaviour, IBreakable
     ObjectPool objectPool;
     [SerializeField]
     int health = 10;
-    [SerializeField]
     Animator animator;
 
     bool destroyed = false;
