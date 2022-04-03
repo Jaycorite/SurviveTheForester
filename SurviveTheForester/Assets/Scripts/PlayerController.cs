@@ -27,10 +27,10 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        /*if (Input.GetMouseButtonDown(0))
         {
             audioManager.Play("Pick_Up");
-        }
+        }*/
         MovePlayer();
         if (Input.GetKeyDown(KeyCode.E))
         {

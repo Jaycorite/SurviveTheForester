@@ -48,7 +48,7 @@ public class FogedBehav : MonoBehaviour
         {
             PlayerInCircle = true;
         }
-        Debug.Log(PlayerInCircle);
+        //Debug.Log(PlayerInCircle);
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
@@ -56,7 +56,7 @@ public class FogedBehav : MonoBehaviour
         {
             PlayerInCircle = false;
         }
-        Debug.Log(PlayerInCircle);
+        //Debug.Log(PlayerInCircle);
     }
 
     void MoveFoged(Vector3 thisWay)
