@@ -14,11 +14,13 @@ public class Enemy : MonoBehaviour, IHittable, IAgent
     [field: SerializeField]
     public UnityEvent OnGetHit { get; set; }
 
+    [field: SerializeField]
+    public UnityEvent OnDie { get; set; }
+
     private void Start()
     {
         Health = EnemyData.MaxHealth;
     }
-
 
 
     public void GetHit(int damage, GameObject damageDealer)
