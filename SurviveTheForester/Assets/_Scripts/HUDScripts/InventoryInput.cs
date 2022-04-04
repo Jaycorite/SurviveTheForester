@@ -11,6 +11,7 @@ public class InventoryInput : MonoBehaviour
     public Hotbar hotbar;
     public InventoryUI inventory;
     public Crafting crafting;
+    public DayNightScript dayNight;
     public GameObject hand;
 
     Canvas canvas;

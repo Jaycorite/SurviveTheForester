@@ -31,12 +31,12 @@ public class DistanceDecisions : AIDecision
 
     protected void OnDrawGizmos()
     {
-        if(UnityEditor.Selection.activeObject == gameObject)
+        /*if(UnityEditor.Selection.activeObject == gameObject)
         {
             Gizmos.color = Color.green;
             Gizmos.DrawWireSphere(transform.position, Distance);
             Gizmos.color = Color.white;
-        }
+        }*/
     }
 }
 
