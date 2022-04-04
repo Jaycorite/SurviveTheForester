@@ -60,7 +60,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 478bef823936ef849a2143600c6c1bf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Distance>k__BackingField: 5
+  <Distance>k__BackingField: 5.51
 --- !u!1 &1264044306717756912
 GameObject:
   m_ObjectHideFlags: 0
@@ -86,7 +86,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1264044306717756912}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -109,7 +109,7 @@ MonoBehaviour:
   actions:
   - {fileID: 1264044306717756917}
   transitions:
-  - {fileID: 1264044307399084866}
+  - {fileID: 1264044306647338229}
 --- !u!114 &1264044306717756917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -372,6 +372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1264044306983066391}
   - component: {fileID: 1264044306983066390}
+  - component: {fileID: 1530390380541078823}
   m_Layer: 7
   m_Name: AttackState
   m_TagString: Untagged
@@ -406,9 +407,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb37b24d7c07d234cacdb59b864ccfcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actions: []
+  actions:
+  - {fileID: 1530390380541078823}
   transitions:
   - {fileID: 1264044307399084866}
+--- !u!114 &1530390380541078823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264044306983066388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2240731e94f200347a53579da5f3f944, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dmg: 1
 --- !u!1 &1264044307316561684
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,7 +484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 478bef823936ef849a2143600c6c1bf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Distance>k__BackingField: 5
+  <Distance>k__BackingField: 5.06
 --- !u!1 &1264044307399084864
 GameObject:
   m_ObjectHideFlags: 0
@@ -482,7 +497,7 @@ GameObject:
   - component: {fileID: 1264044307399084866}
   - component: {fileID: 5581939544205179607}
   m_Layer: 7
-  m_Name: TransitionChase
+  m_Name: TransitionAttackChase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -514,7 +529,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70914e1da2b48f844be60422444148eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Decisions>k__BackingField: []
+  <Decisions>k__BackingField:
+  - {fileID: 5581939544205179607}
   <PositiveResult>k__BackingField: {fileID: 1264044306983066390}
   <NegativeResult>k__BackingField: {fileID: 1264044308213618899}
 --- !u!114 &5581939544205179607
@@ -529,7 +545,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 478bef823936ef849a2143600c6c1bf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Distance>k__BackingField: 1
+  <Distance>k__BackingField: 1.34
 --- !u!1 &1264044307499013805
 GameObject:
   m_ObjectHideFlags: 0
@@ -982,7 +998,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70914e1da2b48f844be60422444148eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Decisions>k__BackingField: []
+  <Decisions>k__BackingField:
+  - {fileID: 2406589927417206780}
   <PositiveResult>k__BackingField: {fileID: 1264044306983066390}
   <NegativeResult>k__BackingField: {fileID: 1264044308213618899}
 --- !u!114 &2406589927417206780

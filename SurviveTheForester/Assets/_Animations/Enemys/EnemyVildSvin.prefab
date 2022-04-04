@@ -296,7 +296,7 @@ MonoBehaviour:
   actions:
   - {fileID: 1676348278730539715}
   transitions:
-  - {fileID: 1676348278754554841}
+  - {fileID: 1676348278334084525}
 --- !u!114 &1676348278730539715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -321,7 +321,7 @@ GameObject:
   - component: {fileID: 1676348278754554841}
   - component: {fileID: 6176366425220848737}
   m_Layer: 7
-  m_Name: TransitionChase
+  m_Name: TransitionChaseAttack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -354,8 +354,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <Decisions>k__BackingField: []
-  <PositiveResult>k__BackingField: {fileID: 1676348278462569947}
-  <NegativeResult>k__BackingField: {fileID: 1676348278730539713}
+  <PositiveResult>k__BackingField: {fileID: 1676348279052926428}
+  <NegativeResult>k__BackingField: {fileID: 1676348278462569947}
 --- !u!114 &6176366425220848737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -379,6 +379,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1676348278935353127}
   - component: {fileID: 1676348278935353124}
+  - component: {fileID: 8139758130134854381}
   m_Layer: 7
   m_Name: TransitionAttack
   m_TagString: Untagged
@@ -412,9 +413,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70914e1da2b48f844be60422444148eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Decisions>k__BackingField: []
+  <Decisions>k__BackingField:
+  - {fileID: 8139758130134854381}
   <PositiveResult>k__BackingField: {fileID: 1676348279052926428}
   <NegativeResult>k__BackingField: {fileID: 1676348278462569947}
+--- !u!114 &8139758130134854381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676348278935353125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 478bef823936ef849a2143600c6c1bf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Distance>k__BackingField: 1.04
 --- !u!1 &1676348279052926429
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,6 +440,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1676348279052926431}
   - component: {fileID: 1676348279052926428}
+  - component: {fileID: 6768230395542661307}
   m_Layer: 7
   m_Name: AttackState
   m_TagString: Untagged
@@ -459,9 +475,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb37b24d7c07d234cacdb59b864ccfcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actions: []
+  actions:
+  - {fileID: 6768230395542661307}
   transitions:
   - {fileID: 1676348278754554841}
+--- !u!114 &6768230395542661307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676348279052926429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2240731e94f200347a53579da5f3f944, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dmg: 5
 --- !u!1 &1676348279507861098
 GameObject:
   m_ObjectHideFlags: 0
@@ -508,7 +538,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Decisions>k__BackingField:
   - {fileID: 1676348279507861108}
-  <PositiveResult>k__BackingField: {fileID: 1676348278730539713}
+  <PositiveResult>k__BackingField: {fileID: 1676348278462569947}
   <NegativeResult>k__BackingField: {fileID: 1676348278462569947}
 --- !u!114 &1676348279507861108
 MonoBehaviour:
@@ -596,9 +626,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 151383965
+  m_SortingLayer: 3
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: acae5ce1eb306ac43af79d9b33125f5f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -932,6 +962,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  health: 20
+  dmgtaken: 1
 --- !u!212 &1676348279730411259
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -969,9 +1001,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 773897203
+  m_SortingLayer: 4
+  m_SortingOrder: 1
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

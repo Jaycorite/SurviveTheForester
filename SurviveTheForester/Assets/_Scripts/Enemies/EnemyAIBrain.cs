@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class EnemyAIBrain : MonoBehaviour, IAgentInput
+public class EnemyAIBrain : MonoBehaviour, IAgentInput, IBreakable
 {
     [field: SerializeField]
     public GameObject Target { get; set; }
@@ -16,6 +16,8 @@ public class EnemyAIBrain : MonoBehaviour, IAgentInput
     public UnityEvent<Vector2> OnMovementKeyPressed { get; set; }
     [field: SerializeField]
     public UnityEvent<Vector2> OnPointerPositionChange { get ; set ; }
+    public int health = 4;
+    public int dmgtaken = 1;
 
 
     private void Awake()
@@ -31,8 +33,13 @@ public class EnemyAIBrain : MonoBehaviour, IAgentInput
             OnMovementKeyPressed?.Invoke(Vector2.zero);
         }
         
-        CurrentState.UpdateState();
+        
 
+    }
+
+    private void FixedUpdate()
+    {
+        CurrentState.UpdateState();
     }
 
     public void Attack()
@@ -49,5 +56,24 @@ public class EnemyAIBrain : MonoBehaviour, IAgentInput
     internal void ChangeToState(AIState state)
     {
         CurrentState = state;
+    }
+
+    public void Break(ITool tool)
+    {
+        
+        if (health > 0 && tool.Name() == "Stick")
+        {
+            health -= dmgtaken;
+        }
+        else if((health > 0 && tool.Name() == "HackingTool+"))
+        {
+            health -= dmgtaken;
+            health -= dmgtaken;
+            health -= dmgtaken;
+        }
+        else if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }

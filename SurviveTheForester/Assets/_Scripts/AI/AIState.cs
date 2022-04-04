@@ -19,7 +19,6 @@ public class AIState : MonoBehaviour
     {
 
         bool result = false;
-        List<bool> results = new List<bool>();
         bool firstHit = false;
         foreach (var action in actions)
         {
@@ -32,22 +31,21 @@ public class AIState : MonoBehaviour
             
             transition.Decisions.ForEach(d => {
                 result = d.MakeADecision();
-                results.Add(d.MakeADecision());
-                
             });
-                
+
+
             if (result && !firstHit)
             {
                 firstHit = true;
                 if (result)
                 {
                     enemyBrain.ChangeToState(transition.PositiveResult);
-                    Debug.Log(result + "hmmmmmmm");
+                    //Debug.Log(result + "hmmmmmmm");
                 }
                 else
                 {
                     enemyBrain.ChangeToState(transition.NegativeResult);
-                    Debug.Log(result + "hmmmmmmm");
+                    //Debug.Log(result + "hmmmmmmm");
                 }
             }
             else if (result && firstHit)
@@ -60,7 +58,7 @@ public class AIState : MonoBehaviour
                 {
                     enemyBrain.ChangeToState(transition.PositiveResult);
                     //Debug.Log(result + "hmmmmmmm");
-                    Debug.Log(result + "HVAD");
+                    //Debug.Log(result + "HVAD");
                 }
                 else
                 {
@@ -68,8 +66,8 @@ public class AIState : MonoBehaviour
                     //Debug.Log(result);
                 }
             }
-
+            //Debug.Log(enemyBrain.CurrentState);
         }
-
+        
     }
 }

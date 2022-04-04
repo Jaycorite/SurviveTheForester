@@ -11,17 +11,18 @@ public class DistanceDecisions : AIDecision
     public override bool MakeADecision()
     {
         float DistanceBetween = Vector3.Distance(enemyBrain.Target.transform.position, transform.position);
-        //Debug.Log(DistanceBetween);
+        //Debug.Log(DistanceBetween + "between");
         if (DistanceBetween < Distance)
         {
             aiActionData.TargetSpottet = true;
-            Debug.Log("VI FA^NDT HAM SGU DRENGENE");
+            //Debug.Log("VI FA^NDT HAM SGU DRENGENE");
             //Debug.Log(DistanceBetween);
         }
         else
         {
             aiActionData.TargetSpottet = false;
-            //Debug.Log(false);
+            //Debug.Log(Distance);
+            //Debug.Log("OK WTF");
             //Debug.Log(DistanceBetween);
         }
         return aiActionData.TargetSpottet;

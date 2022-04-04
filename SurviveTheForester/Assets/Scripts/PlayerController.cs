@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     IBreakable breakable;
     IInteractable mainInteractable;
     Transform mainInteractableTrans;
+    public int Health = 20;
 
     // Start is called before the first frame update
     void Start()
@@ -74,12 +75,10 @@ public class PlayerController : MonoBehaviour
     {
         if (breakable != null && tool != null)
         {
+            
             breakable.Break(tool);
-            if(tool.name =="HackingItem" || tool.name == "HackingItem+")
-            {
-                animator.Play("Char_Chop");
-                audioManager.Play("Chop");
-            }
+            animator.Play("Char_Chop");
+            audioManager.Play("Chop");
         }
         if (mainInteractable != null)
         {
